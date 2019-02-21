@@ -28,4 +28,8 @@ protected:
 	// Magic Pill Health Amount (+/-)
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Values")
 	float PillEffect;
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Components")
+	UStaticMeshComponent* PillMesh;
 };
