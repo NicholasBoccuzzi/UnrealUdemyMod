@@ -22,6 +22,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	// My added components
 protected:
 	// Magic Pill Health Amount (+/-)
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Values")
